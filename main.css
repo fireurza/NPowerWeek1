@@ -1,0 +1,67 @@
+header {background-color: #333;}
+            .navlist {list-style-type: none;
+                      display:inline-block;
+                      margin: 0;
+                      padding: 0;
+                      overflow: hidden;
+                      background-color: #333;
+                     }
+
+            .navbar {float: left;
+               }
+
+            .navbar a { display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 20px 24px;
+                    text-decoration: none;
+                 }
+            .navbar a:hover {background-color: #111;
+                            }
+            .active {background-color:darkred}
+            .active {list-style-type: none;
+                      margin: 0;
+                      padding: 0;
+                      overflow: hidden;
+                     }
+
+            .active {float: left;
+               }
+
+            .active a { display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 20px 24px;
+                    text-decoration: none;
+                 }
+            .active a:hover {background-color: #111;
+                            }
+            .center {margin: 0 auto;      
+                    }
+            .thecolors {
+                width:100%;
+                text-align: center;
+                color:#313131;
+                font-size:45px;
+                font-weight: bold;
+                -webkit-animation-name: colorchange;
+                -webkit-animation-duration: 20s;
+                -webkit-animation-iteration-count: infinite;
+                animation-name: colorchange;
+                animation-duration: 20s;
+                animation-iteration-count: infinite;
+                    }
+
+            @-webkit-keyframes colorchange {
+              0% {color: white;}
+              10% {color: pink;}
+              20% {color: red;}
+              30% {color: orangered;}
+              40% {color: yellow;}
+              50% {color: limegreen;}
+              60% {color: purple;}
+              70% {color: blue;}
+              80% {color: black;}
+              90% {color: gray;}
+              100% {color: lightgray;}
+                    }
